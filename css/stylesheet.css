@@ -1,14 +1,14 @@
-body{
-  font-family: sans-serif;
+.main-container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size:110%;
-  background-color: rgb(246, 250, 232);
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
 }
 
-header {
+.intro-container {
   text-align: center;
-  background-color: rgb(112, 47, 10);
+  background-color: rgb(50, 95, 61);
   color: antiquewhite;
   padding: 20px;
   
@@ -20,37 +20,38 @@ header {
   overflow: unset;
 }
 
-img{
+.profile-image{
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  border: 5px solid antiquewhite;
+
 }
 .Menu-bar{
-  background-color: rgb(61, 58, 56);
-  color: antiquewhite;
+  background-color: rgb(212, 194, 168);
+  color: rgb(50, 95, 61);
   padding: 30px;
 
 }
 
-article{
+.Content {
   padding: 15px;
 
 }
 
 .list-menu-item{
-  color: antiquewhite;
+  color: rgb(50, 95, 61);
   text-decoration: none;
 }
 
-a{
-  text-decoration: none;
-  color: antiquewhite;
-}
-
-footer {
-  background-color: rgb(112, 47, 10);
+.footer {
+  background-color: rgb(50, 95, 61);
   text-align: center;
   padding: 30px;
+  color: antiquewhite;
+}
+
+.footer-link{
   color: antiquewhite;
 }
 
