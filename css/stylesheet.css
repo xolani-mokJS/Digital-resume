@@ -1,12 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;500&display=swap');
 
 .main-container {
   font-family: 'roboto';
+  margin: 0px;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: antiquewhite;
+}
+h3{
+  font-family: 'Amatic SC';
+}
+
+h2{
+  font-family: 'Roboto Condensed';
+}
+
+.about-me-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 30px;
+
 }
 .experience-content{
   display: flex;
@@ -31,11 +49,10 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 15px -20px 15px;
   padding: 30px;
   background-image: url(/Images/education.jpg);
   background-repeat: no-repeat;
-  background-position: fill;
   color: antiquewhite;
 }
 
@@ -66,7 +83,14 @@ a{
   background-color: #2C3333;
   color: antiquewhite;
   padding: 20px;
-  
+}
+
+.intro-container p{
+  padding: 0px;
+}
+
+.intro-container h1{
+  margin: 0px;
 }
 
 .profile-image{
@@ -74,6 +98,7 @@ a{
   height: 200px;
   border-radius: 100px;
   border: 5px solid antiquewhite;
+  padding: 15px;
 }
 
 .Content {
@@ -107,7 +132,6 @@ a{
   height: 400px;
   
 }
-
 .carousel-item{
   text-align: center;
   width: 500px;
@@ -122,6 +146,7 @@ a{
   align-content: center;
   text-align: center;
   margin-top: 30px;
+  font-family: 'Amatic SC';
 }
 
 .carousel-item p:hover{
