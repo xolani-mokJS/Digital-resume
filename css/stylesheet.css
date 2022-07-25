@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .main-container {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'roboto';
 }
 
 a{
@@ -15,6 +17,15 @@ a{
   padding: 30px;
 }
 
+.experience-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+}
+
 .education-content{
   display: flex;
   flex-direction: column;
@@ -22,6 +33,18 @@ a{
   justify-content: center;
   margin: 10px;
   padding: 30px;
+  background-image: url(/Images/education.jpg);
+  background-repeat: no-repeat;
+  background-position: fill;
+  color: antiquewhite;
+}
+
+.education-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
 }
 
 .skill-content{
@@ -29,8 +52,13 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 0px;
   padding: 30px;
+}
+
+#skills{
+  margin: 10px;
+  padding: 25px;
 }
 
 .intro-container {
@@ -46,12 +74,12 @@ a{
   height: 200px;
   border-radius: 100px;
   border: 5px solid antiquewhite;
-
 }
 
 .Content {
   padding: 15px;
 }
+
 .nav{
   background-color: #395B64;
   color: antiquewhite;
@@ -73,3 +101,29 @@ a{
   text-decoration: none;
 }
 
+.d-block{
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  
+}
+
+.carousel-item{
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color: #2C3333;
+  color: antiquewhite;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.carousel-item p{
+  align-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carousel-item p:hover{
+  color: #395B64;
+}
