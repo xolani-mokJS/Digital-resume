@@ -2,9 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;500&display=swap');
 
+*{
+  box-sizing: border-box;
+}
+
 .main-container {
   font-family: 'roboto';
   margin: 0px;
+  background: #eee;
 }
 
 /* HTML tags styling*/
@@ -12,21 +17,31 @@ a{
   text-decoration: none;
   color: antiquewhite;
 }
-h3{
-  font-family: 'Amatic SC';
-}
 
 h2{
   font-family: 'Roboto Condensed';
 }
+
+h3{
+  font-family: 'Amatic SC';
+}
+/* Hr tag/ separator styling*/
+.bottom-line{
+  background: #2C3333;
+  width: 100%;
+}
+
 /* Container styling and container details included*/
 .about-me-content{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 15px;
   padding: 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 
 }
 .experience-content{
@@ -34,8 +49,10 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 15px;
   padding: 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .experience-detail{
@@ -52,11 +69,12 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 15px -20px 15px;
+  margin: 15px;
   padding: 30px;
   background-image: url(/Images/education.jpg);
   background-repeat: no-repeat;
   color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .education-detail{
@@ -72,8 +90,10 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px;
+  margin: 15px;
   padding: 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 #skills{
@@ -81,11 +101,18 @@ h2{
   padding: 25px;
 }
 
+/* .intro-nav-container{
+  width: 100vw;
+  position: sticky;
+  top: 0px;
+} */
+
 .intro-container {
   text-align: center;
   background-color: #2C3333;
   color: antiquewhite;
   padding: 20px;
+  height: 300px;
 }
 
 .intro-container p{
@@ -101,7 +128,6 @@ h2{
   height: 200px;
   border-radius: 100px;
   border: 5px solid antiquewhite;
-  padding: 15px;
 }
 
 .Content {
@@ -111,7 +137,11 @@ h2{
 .nav{
   background-color: #395B64;
   color: antiquewhite;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
 }
+
 .nav-link{
   padding: 15px;
   color: antiquewhite;
@@ -154,7 +184,7 @@ h2{
 }
 
 /* Responsive design according to screen size*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .d-block{
     width: 250px;
     height: 250px;
@@ -163,6 +193,23 @@ h2{
   .carousel-item{
     width: 350px;
     height: 350px;
+  }
+
+  .skill-content{
+    padding: 20px;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .d-block{
+    width: 150px;
+    height: 150px;
+  }
+
+  .carousel-item{
+    width: 250px;
+    height: 250px;
   }
 
   .skill-content{
