@@ -1,3 +1,5 @@
+/* Import fonts from google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;500&display=swap');
 
 .main-container {
@@ -5,6 +7,7 @@
   margin: 0px;
 }
 
+/* HTML tags styling*/
 a{
   text-decoration: none;
   color: antiquewhite;
@@ -16,7 +19,7 @@ h3{
 h2{
   font-family: 'Roboto Condensed';
 }
-
+/* Container styling and container details included*/
 .about-me-content{
   display: flex;
   flex-direction: column;
@@ -150,6 +153,7 @@ h2{
   font-family: 'Amatic SC';
 }
 
+/* Responsive design according to screen size*/
 @media (max-width: 768px) {
   .d-block{
     width: 250px;
