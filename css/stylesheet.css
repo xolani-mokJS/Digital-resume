@@ -124,6 +124,7 @@ h2{
 .footer-link{
   color: antiquewhite;
   text-decoration: none;
+  padding: 15px;
 }
 
 .d-block{
@@ -147,6 +148,23 @@ h2{
   text-align: center;
   margin-top: 30px;
   font-family: 'Amatic SC';
+}
+
+@media (max-width: 768px) {
+  .d-block{
+    width: 250px;
+    height: 250px;
+  }
+
+  .carousel-item{
+    width: 350px;
+    height: 350px;
+  }
+
+  .skill-content{
+    padding: 20px;
+  }
+
 }
 
 .carousel-item p:hover{
